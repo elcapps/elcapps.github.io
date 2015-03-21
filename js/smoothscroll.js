@@ -1,6 +1,3 @@
-<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
-
-
 $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
 
    // prevent default anchor click behavior
@@ -60,10 +57,4 @@ $("#back-to-top a[href^='#']").on('click', function(e) {
        window.location.hash = hash;
      });
 
-});
-
-
-$('.close').click(function () {
-  $('#myModal').hide();
-  $('#myModal iframe').attr("src", jQuery("#myModal iframe").attr("src"));
 });
