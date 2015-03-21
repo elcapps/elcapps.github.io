@@ -4,9 +4,11 @@ body {
   padding-bottom: 20px;
 }
 
-ul.nav, .jumbotron h1{
+ul.nav, .jumbotron h1, a{
 	font-family: 'Arvo', courier, serif;
 }
+
+
 .jumbotron{
 	text-align: center;
 	background-image: url('../Images/water1.jpg'); 
@@ -86,6 +88,19 @@ footer{
 
 #back-to-top a{
 	color: #333;	
+}
+
+
+.jumbotron a{
+	font-family: 'Arvo', courier, serif;
+	margin-top: 0px;
+    margin-bottom: 50px;
+    color: #3A3D3E;
+
+}
+
+.jumbotron a:hover, a:focus {
+    text-decoration: none;
 }
 
 /* Responsive styling */
